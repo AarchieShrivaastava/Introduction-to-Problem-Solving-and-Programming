@@ -7,47 +7,44 @@ This repo contains **34 Python programs** focused on mathematical problem-solvin
 
 ## 📂 Repository Structure
 
-├── programs/
-│ ├── 01_factorial.py
-│ ├── 02_is_palindrome.py
-│ ├── 03_mean_of_digits.py
-│ ├── 04_digital_root.py
-│ ├── 05_is_abundant.py
-│ ├── 06_is_deficient.py
-│ ├── 07_is_harshad.py
-│ ├── 08_is_automorphic.py
-│ ├── 09_is_pronic.py
-│ ├── 10_prime_factors.py
-│ ├── 11_count_distinct_prime_factors.py
-│ ├── 12_is_prime_power.py
-│ ├── 13_is_mersenne_prime.py
-│ ├── 14_twin_primes.py
-│ ├── 15_count_divisors.py
-│ ├── 16_aliquot_sum.py
-│ ├── 17_are_amicable.py
-│ ├── 18_multiplicative_persistence.py
-│ ├── 19_is_highly_composite.py
-│ ├── 20_mod_exp.py
-│ ├── 21_mod_inverse.py
-│ ├── 22_crt_solver.py
-│ ├── 23_is_quadratic_residue.py
-│ ├── 24_order_mod.py
-│ ├── 25_is_fibonacci_prime.py
-│ ├── 26_lucas_sequence.py
-│ ├── 27_is_perfect_power.py
-│ ├── 28_collatz_length.py
-│ ├── 29_polygonal_number.py
-│ ├── 30_is_carmichael.py
-│ ├── 31_is_prime_miller_rabin.py
-│ ├── 32_pollard_rho.py
-│ ├── 33_zeta_approx.py
+├── programs/ 
+│ ├── 01_factorial.py 
+│ ├── 02_is_palindrome.py 
+│ ├── 03_mean_of_digits.py 
+│ ├── 04_digital_root.py 
+│ ├── 05_is_abundant.py 
+│ ├── 06_is_deficient.py 
+│ ├── 07_is_harshad.py 
+│ ├── 08_is_automorphic.py 
+│ ├── 09_is_pronic.py 
+│ ├── 10_prime_factors.py 
+│ ├── 11_count_distinct_prime_factors.py 
+│ ├── 12_is_prime_power.py 
+│ ├── 13_is_mersenne_prime.py 
+│ ├── 14_twin_primes.py 
+│ ├── 15_count_divisors.py 
+│ ├── 16_aliquot_sum.py 
+│ ├── 17_are_amicable.py 
+│ ├── 18_multiplicative_persistence.py 
+│ ├── 19_is_highly_composite.py 
+│ ├── 20_mod_exp.py 
+│ ├── 21_mod_inverse.py 
+│ ├── 22_crt_solver.py 
+│ ├── 23_is_quadratic_residue.py 
+│ ├── 24_order_mod.py 
+│ ├── 25_is_fibonacci_prime.py 
+│ ├── 26_lucas_sequence.py 
+│ ├── 27_is_perfect_power.py 
+│ ├── 28_collatz_length.py 
+│ ├── 29_polygonal_number.py 
+│ ├── 30_is_carmichael.py 
+│ ├── 31_is_prime_miller_rabin.py 
+│ ├── 32_pollard_rho.py 
+│ ├── 33_zeta_approx.py 
 │ └── 34_partition_function.py
-│
-├── report/
-│ └── IPSP_python_34_programs_report.pdf
-│
-└── README.md
-
+│ ├── report/ 
+│ └── IPSP_python_34_programs_report.pdf 
+│ └── README.md
 
 ---
 
