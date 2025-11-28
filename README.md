@@ -1,11 +1,12 @@
 # 📘 Introduction to Problem Solving and Programming (Python)
 
 Welcome to the repository for the course **Introduction to Problem Solving and Programming (Python)**.  
-This repo contains **34 Python programs** focused on mathematical problem solving, number theory, sequences, and basic algorithms, along with a **single consolidated PDF report**. [web:21][web:33]
+This repo contains **34 Python programs** focused on mathematical problem-solving, number theory, sequences, and basic algorithms, along with a **single consolidated PDF report**.
 
 ---
 
 ## 📂 Repository Structure
+
 ├── programs/
 │ ├── 01_factorial.py
 │ ├── 02_is_palindrome.py
@@ -47,112 +48,178 @@ This repo contains **34 Python programs** focused on mathematical problem solvin
 │
 └── README.md
 
-text
 
 ---
 
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
-
-- Python 3.x installed on your system. [web:33]  
-- Git installed (for cloning and version control). [web:23]
+- Python **3.x** installed  
+- Git installed
 
 ### 🔽 Clone the Repository
-
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git clone https://github.com/
+<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 
-text
 
-### ▶️ Run Individual Programs
-
-Example: run the factorial program:
-
+### ▶️ Run a Program
+Example:
 python programs/01_factorial.py
 
-text
-
-If your files use `if __name__ == "__main__":` blocks, they can be executed directly as above. [web:33]
 
 ---
 
 ## 📚 List of Implemented Programs
 
-factorial(n) → n! for non‑negative integers
-
-is_palindrome(n) → checks if digits read same forward & backward
-
-mean_of_digits(n) → average of digits of n
-
-digital_root(n) → repeated digit sum until single digit
-
-is_abundant(n) → sum of proper divisors > n
-
-is_deficient(n) → sum of proper divisors < n
-
-is_harshad(n) → n divisible by sum of its digits
-
-is_automorphic(n) → n² ends with n
-
-is_pronic(n) → n = k(k+1) for some k
-
-prime_factors(n) → list of prime factors
-
-count_distinct_prime_factors(n) → number of unique prime factors
-
-is_prime_power(n) → n = pᵏ, p prime
-
-is_mersenne_prime(p) → checks if 2ᵖ − 1 is prime
-
-twin_primes(limit) → generate twin prime pairs ≤ limit
-
-count_divisors(n) → d(n), number of positive divisors
-
-aliquot_sum(n) → sum of proper divisors
-
-are_amicable(a, b) → amicable pair check
-
-multiplicative_persistence(n) → steps until digit product is single digit
-
-is_highly_composite(n) → more divisors than any smaller number
-
-mod_exp(base, exp, mod) → fast modular exponentiation
-
-mod_inverse(a, m) → modular multiplicative inverse
-
-crt(remainders, moduli) → Chinese Remainder Theorem solver
-
-is_quadratic_residue(a, p) → check if x² ≡ a (mod p) is solvable
-
-order_mod(a, n) → smallest k with aᵏ ≡ 1 (mod n)
-
-is_fibonacci_prime(n) → n is both Fibonacci and prime
-
-lucas_sequence(n) → first n Lucas numbers
-
-is_perfect_power(n) → n = aᵇ, a > 0, b > 1
-
-collatz_length(n) → steps for n to reach 1 in Collatz sequence
-
-polygonal_number(s, n) → n-th s‑gonal number
-
-is_carmichael(n) → Carmichael number check
-
-is_prime_miller_rabin(n, k) → Miller–Rabin probabilistic primality test
-
-pollard_rho(n) → Pollard’s rho factorization
-
-zeta_approx(s, terms) → Riemann zeta function approximation
-
-partition_function(n) → number of integer partitions of n
-
-text
-
-These programs illustrate core ideas from **discrete math, number theory, and algorithmic problem solving in Python**. [web:15][web:12]
+- factorial(n) → factorial of n  
+- is_palindrome(n) → palindrome check  
+- mean_of_digits(n) → average of digits  
+- digital_root(n) → repeated digit sum  
+- is_abundant(n) → proper divisors sum > n  
+- is_deficient(n) → proper divisors sum < n  
+- is_harshad(n) → divisible by digit sum  
+- is_automorphic(n) → n² ends with n  
+- is_pronic(n) → n = k(k+1)  
+- prime_factors(n) → list of prime factors  
+- count_distinct_prime_factors(n) → count unique prime factors  
+- is_prime_power(n) → n = pᵏ  
+- is_mersenne_prime(p) → 2ᵖ − 1 is prime  
+- twin_primes(limit) → all ≤ limit  
+- count_divisors(n) → number of divisors  
+- aliquot_sum(n) → sum of proper divisors  
+- are_amicable(a, b) → amicable pair  
+- multiplicative_persistence(n) → steps to single digit  
+- is_highly_composite(n) → max divisors so far  
+- mod_exp(base, exp, mod) → fast exponentiation  
+- mod_inverse(a, m) → modular inverse  
+- crt(remainders, moduli) → Chinese Remainder solver  
+- is_quadratic_residue(a, p) → solvable x² ≡ a mod p  
+- order_mod(a, n) → smallest k, aᵏ ≡ 1 mod n  
+- is_fibonacci_prime(n) → Fibonacci + prime  
+- lucas_sequence(n) → first n Lucas numbers  
+- is_perfect_power(n) → aᵇ form  
+- collatz_length(n) → steps to reach 1  
+- polygonal_number(s, n) → nth s-gonal number  
+- is_carmichael(n) → Carmichael check  
+- is_prime_miller_rabin(n, k) → primality test  
+- pollard_rho(n) → factorization  
+- zeta_approx(s, terms) → ζ(s) approx  
+- partition_function(n) → integer partitions  
 
 ---
 
 ## 📝 Report (PDF)
 
-The file:
+The consolidated report is available at:
+
+
+---
+
+## 📚 List of Implemented Programs
+
+- factorial(n) → factorial of n  
+- is_palindrome(n) → palindrome check  
+- mean_of_digits(n) → average of digits  
+- digital_root(n) → repeated digit sum  
+- is_abundant(n) → proper divisors sum > n  
+- is_deficient(n) → proper divisors sum < n  
+- is_harshad(n) → divisible by digit sum  
+- is_automorphic(n) → n² ends with n  
+- is_pronic(n) → n = k(k+1)  
+- prime_factors(n) → list of prime factors  
+- count_distinct_prime_factors(n) → count unique prime factors  
+- is_prime_power(n) → n = pᵏ  
+- is_mersenne_prime(p) → 2ᵖ − 1 is prime  
+- twin_primes(limit) → all ≤ limit  
+- count_divisors(n) → number of divisors  
+- aliquot_sum(n) → sum of proper divisors  
+- are_amicable(a, b) → amicable pair  
+- multiplicative_persistence(n) → steps to single digit  
+- is_highly_composite(n) → max divisors so far  
+- mod_exp(base, exp, mod) → fast exponentiation  
+- mod_inverse(a, m) → modular inverse  
+- crt(remainders, moduli) → Chinese Remainder solver  
+- is_quadratic_residue(a, p) → solvable x² ≡ a mod p  
+- order_mod(a, n) → smallest k, aᵏ ≡ 1 mod n  
+- is_fibonacci_prime(n) → Fibonacci + prime  
+- lucas_sequence(n) → first n Lucas numbers  
+- is_perfect_power(n) → aᵇ form  
+- collatz_length(n) → steps to reach 1  
+- polygonal_number(s, n) → nth s-gonal number  
+- is_carmichael(n) → Carmichael check  
+- is_prime_miller_rabin(n, k) → primality test  
+- pollard_rho(n) → factorization  
+- zeta_approx(s, terms) → ζ(s) approx  
+- partition_function(n) → integer partitions  
+
+---
+
+## 📝 Report (PDF)
+
+The consolidated report is available at:
+
+
+---
+
+## 📚 List of Implemented Programs
+
+- factorial(n) → factorial of n  
+- is_palindrome(n) → palindrome check  
+- mean_of_digits(n) → average of digits  
+- digital_root(n) → repeated digit sum  
+- is_abundant(n) → proper divisors sum > n  
+- is_deficient(n) → proper divisors sum < n  
+- is_harshad(n) → divisible by digit sum  
+- is_automorphic(n) → n² ends with n  
+- is_pronic(n) → n = k(k+1)  
+- prime_factors(n) → list of prime factors  
+- count_distinct_prime_factors(n) → count unique prime factors  
+- is_prime_power(n) → n = pᵏ  
+- is_mersenne_prime(p) → 2ᵖ − 1 is prime  
+- twin_primes(limit) → all ≤ limit  
+- count_divisors(n) → number of divisors  
+- aliquot_sum(n) → sum of proper divisors  
+- are_amicable(a, b) → amicable pair  
+- multiplicative_persistence(n) → steps to single digit  
+- is_highly_composite(n) → max divisors so far  
+- mod_exp(base, exp, mod) → fast exponentiation  
+- mod_inverse(a, m) → modular inverse  
+- crt(remainders, moduli) → Chinese Remainder solver  
+- is_quadratic_residue(a, p) → solvable x² ≡ a mod p  
+- order_mod(a, n) → smallest k, aᵏ ≡ 1 mod n  
+- is_fibonacci_prime(n) → Fibonacci + prime  
+- lucas_sequence(n) → first n Lucas numbers  
+- is_perfect_power(n) → aᵇ form  
+- collatz_length(n) → steps to reach 1  
+- polygonal_number(s, n) → nth s-gonal number  
+- is_carmichael(n) → Carmichael check  
+- is_prime_miller_rabin(n, k) → primality test  
+- pollard_rho(n) → factorization  
+- zeta_approx(s, terms) → ζ(s) approx  
+- partition_function(n) → integer partitions  
+
+---
+
+## 📝 Report (PDF)
+
+The consolidated report is available at:
+
+
+It includes:  
+✔ Aim  
+✔ Algorithm  
+✔ Code  
+✔ Output  
+✔ Explanation  
+
+---
+
+## 👤 Author
+**Aarchie Shrivaastava**  
+B.Tech CSE (Coud Computing and Automation)
+VIT Bhopal University  
+
+---
+
+
