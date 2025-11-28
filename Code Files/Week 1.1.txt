@@ -1,0 +1,14 @@
+#write a function called euler_phi(n) that calculates Euler's Totient Function , ψ(n). This #function counts the number of integers upto n taht are coprime with n (i.e numbers k for #which gcd(n,k)=1).
+                                        
+def euler_phi(n):
+    count = 0
+    for k in range(1, n + 1):
+        
+        a, b = n, k
+        while b != 0:
+            a, b = b, a % b
+        if a == 1:
+            count += 1
+    return count
+result = euler_phi(10)
+print(result)

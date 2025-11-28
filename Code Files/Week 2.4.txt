@@ -1,0 +1,28 @@
+#Write a function is_pronic(n) that checks if a number is the product of two consecutive integers.
+
+number = input("Enter a number: ")
+
+sum_digits = 0
+count = 0
+
+print("\nProcessing digits:")
+for char in number:
+    if char >= '0' and char <= '9':
+        digit = ord(char) - ord('0')
+        sum_digits += digit
+        count += 1
+        print(f"Digit: {digit}, Running Sum: {sum_digits}")
+    elif char == '-':
+        print("Ignoring negative sign")
+        continue
+    else:
+        print(f"Warning: '{char}' is not a digit - ignoring")
+
+if count > 0:
+    mean = sum_digits / count
+    print(f"\nFinal Result:")
+    print(f"Total digits: {count}")
+    print(f"Sum of digits: {sum_digits}")
+    print(f"Mean of digits = {sum_digits} ÷ {count} = {mean}")
+else:
+    print("No valid digits found in the input!")

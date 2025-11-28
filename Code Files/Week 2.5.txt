@@ -1,0 +1,31 @@
+#Write a function prime_factors(n) that returns the list of prime factors of a number.
+ 
+def prime_factors(n):
+    if n <= 1:
+        return []
+    
+    factors = []
+    current = n
+
+    while current % 2 == 0:
+        factors.append(2)
+        current = current // 2
+    
+    factor = 3
+    while factor * factor <= current:
+        while current % factor == 0:
+            factors.append(factor)
+            current = current // factor
+        factor += 2
+    
+    if current > 1:
+        factors.append(current)
+    
+    return factors
+
+
+print(prime_factors(56))
+print(prime_factors(100))
+print(prime_factors(17)) 
+print(prime_factors(1)) 
+print(prime_factors(90))   

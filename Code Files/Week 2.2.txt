@@ -1,0 +1,50 @@
+#Write a function for harshad number is_harshad(n) that checks if a number is divisible by the sum of its digits.
+
+def is_harshad(number):    
+    if number <= 0:
+        return False
+    
+    original_number = number
+    total_of_digits = 0
+    
+    while number > 0:
+        last_digit = number % 10
+        total_of_digits = total_of_digits + last_digit
+        number = number // 10
+    
+    if total_of_digits == 0:
+        return False
+    quotient = original_number // total_of_digits
+    return quotient * total_of_digits == original_number
+
+print("Let's check which numbers are Harshad numbers!")
+print("=" * 40)
+
+test_numbers = [10, 12, 18, 21, 24, 27, 11, 13, 15, 20]
+
+for num in test_numbers:
+    result = is_harshad(num)
+    
+    if result:
+        digits_sum = 0
+        temp = num
+        while temp > 0:
+            digits_sum += temp % 10
+            temp //= 10
+            
+        print(f"✓ {num} IS a Harshad number")
+        print(f"  Because {num} ÷ {digits_sum} = {num // digits_sum} exactly!")
+    else:
+        digits_sum = 0
+        temp = num
+        while temp > 0:
+            digits_sum += temp % 10
+            temp //= 10
+            
+        print(f"✗ {num} is NOT a Harshad number") 
+        print(f"  Because {num} ÷ {digits_sum} = {num / digits_sum:.1f} (not a whole number)")
+    
+    print() 
+
+print("Fun fact: 'Harshad' comes from Sanskrit and means 'joy-giver'!")
+print("These numbers have some interesting mathematical properties.")
